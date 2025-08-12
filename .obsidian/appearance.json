@@ -1,0 +1,14 @@
+{
+  "cssTheme": "Things",
+  "accentColor": "",
+  "nativeMenus": true,
+  "showRibbon": true,
+  "showViewHeader": true,
+  "baseFontSizeAction": true,
+  "monospaceFontFamily": "Fira Code Retina",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Fira Code Retina",
+  "enabledCssSnippets": [
+    "mermaid-font-size"
+  ]
+}

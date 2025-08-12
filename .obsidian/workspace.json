@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "f116524dbcb0c47c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ddfc418c8f288ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ad99b1e9b2aa3c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core WordPress.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Core WordPress"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8bf7b23e6b7399f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "22e2d1e12e9b05a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfc927465a6c10fd",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "fe218d9a2556b146",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SystemSetups/wpdevlSetup/WordPress Seup.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for WordPress Seup"
+            }
+          },
+          {
+            "id": "e7bd19a5f1f070ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SystemNotes/debinSystemSetup/nginx php wordpress setup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from nginx php wordpress setup"
+            }
+          }
+        ]
+      },
+      {
+        "id": "918a5f453008c57e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be02d1dabe2bcf90",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Install",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d9e41b691a1cad32",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "e9e6d3b243f223c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "04d4182d89fa0b58",
+        "type": "tabs",
+        "dimension": 23.4192037470726,
+        "children": [
+          {
+            "id": "d59f4f8c655707a2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      },
+      {
+        "id": "92e89e680ce69470",
+        "type": "tabs",
+        "dimension": 76.5807962529274,
+        "children": [
+          {
+            "id": "78f5de242f81979a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a7ce514b5adedd16",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SystemSetups/wpdevlSetup/WordPress Seup.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of WordPress Seup"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 226.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "5ad99b1e9b2aa3c5",
+  "lastOpenFiles": [
+    "Theme Hierarchy.md",
+    "Core WordPress.md",
+    "Advanced - Custom Development - wordpress.md",
+    "Academic-forest/WordPress/WordPress Services.md",
+    "layered skills roadmap.md",
+    "Development Tools & Practices.md",
+    "WordPress APIs You Should Know.md",
+    "Programming Languages & Concepts.md",
+    "Core WordPress Development Skills.md",
+    "REST API  GraphQL.md",
+    "MySQL.md",
+    "PHP.md",
+    "Skills Needed - Wordpress devl.md",
+    "Setup & Installation - Wordpress.md",
+    "Academic-forest",
+    "SystemNotes/debinSystemSetup/nginx php wordpress setup.md",
+    "Composer.md",
+    "Academic-forest/WordPress",
+    "SystemNotes/debinSystemSetup/Setup Php - nginx.md",
+    "ddev - SystemSetup.md",
+    "SystemNotes/SystemSetups/Commom/DDEV.md",
+    "SystemNotes/SystemSetups/wpdevlSetup/WordPress Seup-ddev.md",
+    "SystemNotes/SystemSetups/arch-linux-wsl-Guid/Basic dev tools.md",
+    "SystemNotes/SystemSetups/arch-linux-wsl-Guid/Instructions-archWsl.md",
+    "SystemNotes/SystemSetups/arch-linux-wsl-Guid/Reflector.md",
+    "SystemNotes/debinSystemSetup/debin Personalisation.md",
+    "SystemNotes/debinSystemSetup/Preface-devin.md",
+    "SystemNotes/SystemSetups/Commom/Char list.md",
+    "SystemNotes",
+    "SystemNotes/debinSystemSetup",
+    "SystemNotes/SystemSetups/arch-linux-wsl-Guid",
+    "SystemNotes/SystemSetups/Commom",
+    "SystemNotes/SystemSetups/wpdevlSetup",
+    "neovim_cheat_card.pdf",
+    "SystemNotes/SystemSetups"
+  ]
+}

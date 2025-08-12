@@ -1,0 +1,67 @@
+/* Mermaid compact styling with CSS variables for easy color customization */
+
+:root {
+  --mermaid-bg: #f9f9f9;
+  --mermaid-border: #666666;
+  --mermaid-text: #111111;
+  --mermaid-edge: #444444;
+  --mermaid-edge-label: #555555;
+  --mermaid-cluster-bg: #e3e3e3;
+  --mermaid-cluster-border: #999999;
+  --mermaid-cluster-text: #444444;
+}
+
+.mermaid {
+  font-size: 10px !important;
+  font-family: Arial, sans-serif !important;
+  color: var(--mermaid-text) !important;
+  background-color: transparent !important;
+}
+
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse {
+  fill: var(--mermaid-bg) !important;
+  stroke: var(--mermaid-border) !important;
+  stroke-width: 1px !important;
+  rx: 3px !important;
+  ry: 3px !important;
+}
+
+.mermaid .node text {
+  fill: var(--mermaid-text) !important;
+  font-weight: 600;
+  line-height: 1 !important;
+}
+
+.mermaid .edgePath path {
+  stroke: var(--mermaid-edge) !important;
+  stroke-width: 0.8px !important;
+}
+
+.mermaid .edgeLabel text {
+  font-size: 7px !important;
+  fill: var(--mermaid-edge-label) !important;
+}
+
+.mermaid > svg {
+  margin: 4px 0 !important;
+  max-width: 100% !important;
+}
+
+.mermaid .cluster rect {
+  fill: var(--mermaid-cluster-bg) !important;
+  stroke: var(--mermaid-cluster-border) !important;
+  stroke-width: 0.8px !important;
+}
+
+.mermaid .cluster text {
+  fill: var(--mermaid-cluster-text) !important;
+  font-weight: 700;
+  font-size: 8px !important;
+}
+
+.mermaid .node {
+  padding: 2px 4px !important;
+  margin: 0 !important;
+}
