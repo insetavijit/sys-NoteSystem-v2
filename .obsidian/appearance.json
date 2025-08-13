@@ -10,5 +10,6 @@
   "interfaceFontFamily": "Fira Code Retina",
   "enabledCssSnippets": [
     "mermaid-font-size"
-  ]
+  ],
+  "baseFontSize": 18
 }
