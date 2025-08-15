@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7814b80e6da59728",
+        "id": "ece2d412c8ba3ee8",
         "type": "tabs",
         "children": [
           {
-            "id": "d97366506892c044",
+            "id": "faa0f9babcd5ab01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academic-forest/WordPress/Word Press - Main.md",
-                "mode": "source",
+                "file": "SystemNotes/SystemSetups/arch-linux-wsl-Guid/Instructions-archWsl.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Word Press - Main"
-            }
-          },
-          {
-            "id": "4dfcc6f360fceb08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academic-forest/nginx/NGINX.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NGINX"
+              "title": "Instructions-archWsl"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,20 +166,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academic-forest/WordPress/Word Press - Main.md",
-                "followCursor": false,
+                "file": "Academic-forest/WordPress/learnings/function list -wp.md",
+                "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Word Press - Main"
+              "title": "Outline of function list -wp"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 226.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,43 +193,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4dfcc6f360fceb08",
+  "active": "faa0f9babcd5ab01",
   "lastOpenFiles": [
+    "Academic-forest/WordPress/learnings/function list -wp.md",
+    "Academic-forest/WordPress/wp-architecture/Wordpress functions table.md",
+    "Academic-forest/WordPress/Word Press - Theme development.md",
+    "Academic-forest/WordPress/wp-architecture/Core APIs - wp.md",
+    "Academic-forest/WordPress/wp-architecture/Options API.md",
+    "Academic-forest/WordPress/wp-architecture/WordPress Architecture.md",
+    "Academic-forest/WordPress/wp-architecture/Create nginx-config.md",
+    "Academic-forest/WordPress/wp-architecture",
+    "Academic-forest/WordPress/wp-architecture/Core Files - wp.md",
+    "Academic-forest/WordPress/wp-architecture/Hooks System - wp.md",
+    "Academic-forest/WordPress/wp-architecture/Template Hierarchy - wp.md",
+    "Academic-forest/WordPress/learnings/Core WordPress.md",
+    "Academic-forest/WordPress/learnings/Advanced - Custom Development - wordpress.md",
+    "SystemNotes/SystemSetups/arch-linux-wsl-Guid/Instructions-archWsl.md",
+    "SystemNotes/SystemSetups/Commom/Neovim Setup with NvChad.md",
+    "SystemNotes/SystemSetups/Commom/Oh My Zsh.md",
+    "SystemNotes/SystemSetups/arch-linux-wsl-Guid/Reflector.md",
     "Academic-forest/nginx/NGINX.md",
     "Academic-forest/nginx",
-    "Academic-forest/WordPress/learnings/Advanced - Custom Development - wordpress.md",
-    "Create nginx-config.md",
-    "Academic-forest/WordPress/Word Press - Main.md",
     "Academic-forest/WordPress/learnings/WordPress Services.md",
-    "SystemNotes/SystemSetups/arch-linux-wsl-Guid/Instructions-archWsl.md",
-    "Academic-forest/WordPress/learnings/function list -wp.md",
     "Academic-forest/WordPress/learnings/Setup & Installation - Wordpress.md",
     "Academic-forest/WordPress/learnings",
-    "Development Tools & Practices.md",
-    "ddev - SystemSetup.md",
-    "Academic-forest/WordPress/learnings/Core WordPress.md",
+    "Academic-forest/WordPress/wp-architecture/Development Tools & Practices.md",
+    "Academic-forest/WordPress/wp-architecture/ddev - SystemSetup.md",
     "Academic-forest/WordPress/learnings/Theme Hierarchy.md",
     "Academic-forest/WordPress/learnings/layered skills roadmap.md",
     "Academic-forest/WordPress/learnings/WordPress APIs You Should Know.md",
     "Academic-forest/WordPress/learnings/Programming Languages & Concepts.md",
     "Academic-forest/WordPress/learnings/Core WordPress Development Skills.md",
-    "Academic-forest/WordPress/learnings/REST API  GraphQL.md",
-    "Academic-forest/WordPress/learnings/MySQL.md",
-    "Academic-forest/WordPress/learnings/PHP.md",
-    "Academic-forest/WordPress/learnings/Skills Needed - Wordpress devl.md",
     "Academic-forest",
-    "SystemNotes/debinSystemSetup/nginx php wordpress setup.md",
-    "Composer.md",
     "Academic-forest/WordPress",
-    "SystemNotes/debinSystemSetup/Setup Php - nginx.md",
-    "SystemNotes/SystemSetups/Commom/DDEV.md",
-    "SystemNotes/SystemSetups/wpdevlSetup/WordPress Seup-ddev.md",
-    "SystemNotes/SystemSetups/arch-linux-wsl-Guid/Basic dev tools.md",
     "SystemNotes",
     "SystemNotes/debinSystemSetup",
     "SystemNotes/SystemSetups/arch-linux-wsl-Guid",
     "SystemNotes/SystemSetups/Commom",
-    "SystemNotes/SystemSetups/wpdevlSetup",
-    "neovim_cheat_card.pdf"
+    "SystemNotes/SystemSetups/wpdevlSetup"
   ]
 }

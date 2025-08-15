@@ -86,6 +86,9 @@ sudo nano /etc/wsl.conf
 [user]
 default=avijit
 
+/etc/pacman.conf
+
+
 
 
 # 4. install [[Basic dev tools ]] as root
@@ -93,7 +96,7 @@ default=avijit
 
 ```bash
 
-pacman -Syu sudo vim curl which reflector pacman-contrib zsh --noconfirm
+pacman -Syu sudo vim curl which reflector rsync pacman-contrib zsh --noconfirm
 
 ```
 
@@ -111,18 +114,21 @@ sudo reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
 #### Here’s a single command to install all those packages on Arch Linux:
 
 ```bash
-sudo pacman -S --needed ca-certificates base-devel htop wget curl fzf bat exa jq ripgrep tmux neovim unzip tree ncdu git docker zsh docker-compose 
+sudo pacman -S --needed ca-certificates base-devel htop wget curl fzf bat exa jq ripgrep tmux neovim unzip tree ncdu git zsh
+
+
+sudo pacman -S --needed docker docker-compose
 
 ```
 
-***Next Step >***   [[Neovim Setup with NvChad]] + [[ Oh My Zsh  ]] > ONLY AFTER PERSONALISATION
+***Next Step >***   [[Neovim Setup with NvChad]] + [[ Oh My862 Zsh  ]] > ONLY AFTER PERSONALISATION
 
 ---
 
 ```bash
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && \
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions && \
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
 ```
@@ -140,7 +146,7 @@ Run this in your terminal. After it finishes:
 ```bash
 sudo systemctl start docker && \
 sudo systemctl enable docker && \
-docker run hello-world
+sudo docker run hello-world
 ```
 
 ```bash
@@ -149,3 +155,6 @@ curl -fsSL https://ddev.com/install.sh | bash
 
 
 sudo usermod -aG docker avijit
+[avijit@DESKTOP-2Q17AQ8 lorem]$ sudo usermod -aG docker $USER
+[avijit@DESKTOP-2Q17AQ8 lorem]$ newgrp docker
+[avijit@DESKTOP-2Q17AQ8 lorem]$ docker info
